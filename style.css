@@ -1,7 +1,33 @@
-.navbar-brand{
-    width: 100px;
-    height: 34px;
-    padding-top: 25px;
-    padding-left: 25px;
-    background-color: blue;
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+h1 h2 {
+  font-weight: 700;
+}
+
+.logo {
+  width: 100px;
+  height: 34px;
+  padding-top: 25px;
+  padding-left: 25px;
+  background-color: blue;
+}
+
+.navbar {
+  background-color: #f1f3ff;
+}
+
+a.fitur {
+  color: black;
+}
+
+.upper-section {
+  height: 580px;
+  background-color: #f1f3ff;
+  position: relative;
+}
+
+.lexus img {
+  width: 754px;
 }
