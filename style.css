@@ -61,7 +61,7 @@ p {
 }
 
 .upper-section {
-  height: 488px;
+  height: 482px;
   background-color: #f1f3ff;
   position: relative;
 }
@@ -81,7 +81,7 @@ p {
 }
 
 .lexus img {
-  width: 760px;
+  width: 750px;
 }
 
 .our-services {
@@ -105,3 +105,72 @@ p {
   flex-grow: 1;
   text-align: left;
 }
+
+
+div#whyUs {
+  margin-top: 100px;
+}
+
+.why-us .card-body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.why-us .card-body.yellow::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #F9CC00;
+  clip-path: circle(7% at 32.3px 35.3px);
+}
+
+.why-us .card-body.red::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fa2c5a;
+  clip-path: circle(7% at 32.3px 35.3px);
+}
+.why-us .card-body.blue::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0d28a6;
+  clip-path: circle(7% at 32.3px 35.3px);
+}
+.why-us .card-body.green::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #5cb85f;
+  clip-path: circle(7% at 32.3px 35.3px);
+}
+
+.why-us .card-body p:nth-child(2) {
+    margin-top: 5%;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.why-us .card-body .bi {
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 3px 6px;
+    z-index: 1;
+}
+
