@@ -180,6 +180,46 @@ div#whyUs {
   z-index: 1;
 }
 
+.testimonial {
+  background: #F1F3FF;
+  padding:  100px;
+  border-radius: 8px;
+  width: 832px;
+  height: 270px;
+  margin: auto;
+  position: relative;
+}
+
+.testiImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testiImg img {
+  height: 150px;
+  width: 100px;
+  scale: 0.5;
+}
+
+.testiText {
+  width: 415px;
+  height: 132px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-right: 0;
+}
+
+.testiName {
+  font-weight: 600;
+}
+
+.carousel-btn {
+  display: flex;
+  gap: 10px;
+}
+
 .banner .container {
   background-color: #0d28a6;
   border-radius: 13px;
