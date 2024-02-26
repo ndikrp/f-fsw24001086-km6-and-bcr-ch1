@@ -8,7 +8,7 @@ h1 h2 {
 }
 
 p {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14px;
   line-height: 20px;
 }
@@ -62,7 +62,7 @@ p {
 }
 
 .upper-section {
-  height: 482px;
+  height: 455px;
   background-color: #f1f3ff;
   position: relative;
 }
@@ -81,16 +81,6 @@ p {
   margin-bottom: 20px;
 }
 
-.lexus img {
-  width: 750px;
-}
-
-.our-services {
-  width: 1027px;
-  height: 428px;
-  margin: auto;
-}
-
 .checklist-text {
   display: flex;
   align-items: center;
@@ -105,10 +95,6 @@ p {
   margin: 0;
   flex-grow: 1;
   text-align: left;
-}
-
-div#whyUs {
-  margin-top: 100px;
 }
 
 .why-us p {
@@ -182,8 +168,8 @@ div#whyUs {
 }
 
 .testimonial {
-  background: #F1F3FF;
-  padding:  100px;
+  background: #f1f3ff;
+  padding: 100px;
   border-radius: 8px;
   width: 832px;
   height: 270px;
@@ -244,4 +230,53 @@ div#whyUs {
   height: 34px;
   width: 110px;
   background-color: #0d28a6;
+}
+/* RESPONSIF MOBIL LEXUS & SERVICE */
+@media (max-width: 500px) {
+  .upper-section {
+    height: auto;
+  }
+
+  .custom-img {
+    width: 100%;
+  }
+
+  .service-img {
+    width: auto;
+    height: auto;
+  }
+}
+/* RESPONSIF TESTIMONI */
+@media (max-width: 500px) {
+  .testimonial {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .testiImg {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .testiImg img {
+    height: auto;
+    width: 100%;
+    scale: 0.9;
+  }
+
+  .testiText {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .star {
+    margin-bottom: 5px;
+    text-align: center; /* Center the content horizontally */
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: center; /* Center the content vertically */
+  }
 }
