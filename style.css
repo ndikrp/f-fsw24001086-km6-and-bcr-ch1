@@ -232,7 +232,7 @@ p {
   background-color: #0d28a6;
 }
 /* RESPONSIF MOBIL LEXUS & SERVICE */
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .upper-section {
     height: auto;
   }
@@ -248,7 +248,7 @@ p {
   }
 }
 /* RESPONSIF TESTIMONI */
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .testimonial {
     width: 100%;
     height: auto;
