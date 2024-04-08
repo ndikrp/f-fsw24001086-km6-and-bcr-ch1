@@ -1,5 +1,6 @@
 # Binar: Challenge 01 Binar Car Rental Landing Page
 Fullstack Web Development Challenge 1 Binar Academy - FSW2402KM6004 Andhika Rizky Aulia  
+A Car rental website application using html and css
 
 # How to Use
 
